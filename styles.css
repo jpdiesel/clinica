@@ -67,10 +67,45 @@ p {
 .service p {
 	margin-top: 15px;
 	margin-bottom: 10px;
+    color:#81858a
 }
 
 img {
     height: 90%;
     width: 90%;
 		border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.appointment {
+    height: 300px;
+    width: 750px;
+    background-image: url(https://h3med.com.br/wp-content/uploads/2022/07/Clinica-Medica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.appointment p {
+    color:#424548
+}
+
+.cta  {
+    padding-top: 100px;
+    font-size: 35px;
 }

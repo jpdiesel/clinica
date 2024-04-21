@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Registro de Exames</title>
+    <link href="./exames.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <a href="../index.html">Vitalis Clinic</h1>
+    </header>
+    <nav>
+        <a href="../index.html#services">Serviços</a>
+        <a href="../index.html#about">Sobre</a>
+        <a href="../index.html#contact">Contato</a>
+    </nav>
+    <div class="container">  
+        <h1>Marcar Exame</h1>
+        <form action="/registrar_exame" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="tipo_exame">Tipo de Exame:</label>
+            <select id="tipo_exame" name="tipo_exame">
+                <option value="laboratorial">Laboratorial</option>
+                <option value="imagem">Imagem</option>
+            </select>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" rows="4"></textarea>
+
+            <label for="data_exame">Data do Exame:</label>
+            <input type="date" id="data_exame" name="data_exame" required>
+
+            <input type="submit" value="Registrar Exame">
+        </form>
+    </div>
+</body>
+</html>
