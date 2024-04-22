@@ -39,6 +39,10 @@ Clique em "install".
 
 ## Iniciando o projeto 
 
-Para iniciar o projeto, clique com o botão direito no arquivo "index.html" e depois em "Open with Live Server"
+Para iniciar o projeto, clique com o botão direito no arquivo "index.html" e depois em "Open with Live Server".
 
 ![Iniciando o projeto](https://i.imgur.com/zgQp8TC.png)
+
+O projeto será aberto em seu navegador padrão.
+
+![Projeto](https://i.imgur.com/s0HuEGf.png)
