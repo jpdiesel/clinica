@@ -27,18 +27,18 @@ Após o término da clonagem, abra o projeto na sua IDE de preferência. Usando 
 
 Utilizando o Visual Studio Code, clique em Extensões.
 
-![Botão extensões do VSCODE](https://imgur.com/ivuvMEx)
+![Botão extensões do VSCODE](https://i.imgur.com/ivuvMEx.png)
 
 Após isso, pesquise por Live Server.
 
-![Extensão Live Server](https://imgur.com/LVvxPx4)
+![Extensão Live Server](https://i.imgur.com/LVvxPx4.png)
 
 Clique em "install".
 
-![Botão de instalar](https://imgur.com/LVvxPx4)
+![Botão de instalar](https://i.imgur.com/FW8m2Av.png)
 
 ## Iniciando o projeto 
 
 Para iniciar o projeto, clique com o botão direito no arquivo "index.html" e depois em "Open with Live Server"
 
-![Iniciando o projeto](https://imgur.com/zgQp8TC)
+![Iniciando o projeto](https://i.imgur.com/zgQp8TC.png)
